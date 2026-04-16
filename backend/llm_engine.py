@@ -50,7 +50,7 @@ class DeepSeekClient(BaseLLMClient):
             raise ImportError("OpenAI package not installed. Please run: pip install openai")
         
         # --- HARDCODED CREDENTIALS (THE BRAIN: GEMINI) ---
-        self.api_key = "AIzaSyBzIEuolIV-IPPN_CbeHAfvKw4WoSjXCJc"
+        self.api_key = "place-your-api-key-here"
         self.base_url = "https://generativelanguage.googleapis.com/v1beta/openai/"
         self.model = "gemini-2.5-flash"
         
@@ -129,7 +129,7 @@ class DeepSeekClient(BaseLLMClient):
                     from openai import OpenAI
                     groq_client = OpenAI(
                         base_url="https://api.groq.com/openai/v1", 
-                        api_key="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"
+                        api_key="place-your-api-key-here"
                     )
                     
                     # 🔥 ADDED: Update the tracker because Gemini hit a limit

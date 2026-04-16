@@ -3,3 +3,7 @@ node_modules/
 __pycache__/
 *.pyc
 .env
+agent_qdrant_storage/
+qdrant_memory/
+*.sqlite
+*.db

@@ -1,7 +1,7 @@
 from google import genai
 
 # Paste your Gemini API key here (and keep it a secret this time!)
-api_key = "AIzaSyC1f2reiSIi01G_d3pdnMp-eriWnO6cKDg"
+api_key = "your-api-key"
 
 # Setup the connection to Gemini
 # The SDK will use the key provided here

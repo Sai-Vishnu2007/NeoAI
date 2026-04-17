@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 # This is the exact key you shared
-api_key = "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"
+api_key = "your-api-key"
 
 # Setup the connection to Groq
 client = OpenAI(
